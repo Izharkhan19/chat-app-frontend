@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 import Share from "./Components/Share/Share";
 
 // const socket = io.connect("http://localhost:3001");
-const socket = io.connect("https://chat-backend-f083.onrender.com/");
+const socket = io.connect("https://chat-backend-f083.onrender.com");
 
 function App() {
   const [userName, setUserName] = useState("");
