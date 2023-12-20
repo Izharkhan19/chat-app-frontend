@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div className="container-main">
+      <div className="message right">Hey message right</div>
+      <div className="message left">Hello message left</div>
+    </div>
+    <div className="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInput" id="messageInput" />
+        <button className="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
